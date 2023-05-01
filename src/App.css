@@ -12,11 +12,16 @@ main {
 h1 {
   text-align: center;
 }
+
 form {
   max-width: 400px;
   margin: 0 auto;
 }
+
+/* also used in the new version */
 input {
+  max-width: 400px;
+  margin: 0 auto;
   display: block;
   margin-bottom: 5px;
   width: 100%;
@@ -36,9 +41,11 @@ button {
   margin-bottom: 25px;
   cursor: pointer;
 }
-a.button {
+
+/* also used in the new version */
+a.button {  
   background-color: #fff;
-  border: 2px solid #555;
+  border: 2px solid #ddd;
   border-radius: 5px;
   color: #555;
   padding: 20px 34px;
@@ -54,4 +61,11 @@ a.button {
 .pagination-container {
   display: flex;
   justify-content: center;
+}
+
+.alertmessage {
+  text-align: center;
+  padding: 10px;
+  color: red;
+  font-size: large;
 }
